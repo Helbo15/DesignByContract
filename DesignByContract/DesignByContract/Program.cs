@@ -21,8 +21,8 @@ namespace DesignByContract
 
             Console.WriteLine("aSecondAccount: deposit 200:");
             aSecondAccount.Deposit(200);
-            //expect the rest of this to throw uncatchable
-            //exceptions as the Account Class is not designed for this kind of usage
+            //The rest of these will throw an exception
+            //because the Account Class is not designed for this kind of usage
             try
             {
 
